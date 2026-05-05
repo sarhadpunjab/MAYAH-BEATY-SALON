@@ -174,7 +174,7 @@ export default function App() {
             <div className="relative">
               <div className="aspect-[4/5] overflow-hidden bg-brand-dark/5">
                 <img 
-                  src="https://images.pexels.com/photos/3993264/pexels-photo-3993264.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" 
                   alt="Stylist at work" 
                   className="w-full h-full object-cover"
                 />
@@ -244,12 +244,12 @@ export default function App() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { name: 'Hair Cut & Styling', price: 'From Rs. 1,500', desc: 'Personalized cuts and styling tailored to your face shape and lifestyle.', image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80' },
+                { name: 'Hair Cut & Styling', price: 'From Rs. 1,500', desc: 'Personalized cuts and styling tailored to your face shape and lifestyle.', image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=80' },
                 { name: 'Color & Highlights', price: 'From Rs. 8,000', desc: 'Expert color plotting, balayage, and highlighting techniques.', image: 'https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=800&q=80' },
-                { name: 'Bridal Packages', price: 'Custom', desc: 'Complete bridal hair and makeup services for your special day.', image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=800&q=80' },
+                { name: 'Bridal Packages', price: 'Custom', desc: 'Complete bridal hair and makeup services for your special day.', image: 'https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=800&q=80' },
                 { name: 'Hair Treatments', price: 'From Rs. 3,000', desc: 'Nourishing and restorative treatments for healthy, vibrant hair.', image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80' },
-                { name: 'Extensions', price: 'Consultation', desc: 'Premium quality hair extensions for volume and length.', image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80' },
-                { name: 'Makeup Application', price: 'From Rs. 4,000', desc: 'Professional makeup for events, photoshoots, or everyday glam.', image: 'https://images.unsplash.com/photo-1512496015851-a1fbca69259c?auto=format&fit=crop&w=800&q=80' },
+                { name: 'Extensions', price: 'Consultation', desc: 'Premium quality hair extensions for volume and length.', image: 'https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800&q=80' },
+                { name: 'Makeup Application', price: 'From Rs. 4,000', desc: 'Professional makeup for events, photoshoots, or everyday glam.', image: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=800&q=80' },
               ].map((service, idx) => (
                 <div key={idx} className="group overflow-hidden bg-white/5 hover:bg-white/10 transition-colors duration-300">
                   <div className="aspect-[3/2] overflow-hidden">
@@ -279,10 +279,10 @@ export default function App() {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2 w-full">
               {[
-                "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=80",
-                "https://images.unsplash.com/photo-1634643836960-c345b3c3e998?auto=format&fit=crop&w=800&q=80",
-                "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80",
-                "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80"
+                "https://images.unsplash.com/photo-1582215286576-a4f669cd65bc?auto=format&fit=crop&w=800&q=80",
+                "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=800&q=80",
+                "https://images.unsplash.com/photo-1559599238-308793637427?auto=format&fit=crop&w=800&q=80",
+                "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80"
               ].map((img, idx) => (
                 <div key={idx} className="aspect-square bg-gray-100 overflow-hidden relative group">
                   <img src={img} alt="Gallery item" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
