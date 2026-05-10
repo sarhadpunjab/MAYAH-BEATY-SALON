@@ -35,18 +35,14 @@ export default function App() {
           isScrolled ? 'bg-brand-light/95 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'
         }`}
       >
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between">
-          <a href="#" className="font-serif text-2xl font-semibold tracking-tight text-brand-dark">
-            Mayah Mughal
-          </a>
-          
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-end">
           {/* Desktop Nav */}
           <nav className="hidden md:flex gap-8 items-center">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium tracking-wide text-brand-dark hover:text-brand-accent transition-colors"
+                className="text-sm font-bold tracking-wide text-brand-dark hover:text-brand-accent transition-colors"
               >
                 {link.name}
               </a>
@@ -128,8 +124,8 @@ export default function App() {
             <motion.p variants={FADE_UP_ANIMATION_VARIANTS} className="text-sm md:text-base font-medium tracking-[0.2em] uppercase text-brand-dark mb-4">
               Premium Beauty & Hair Care
             </motion.p>
-            <motion.h1 variants={FADE_UP_ANIMATION_VARIANTS} className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-brand-dark mb-8">
-              Discover Your<br />Signature Look.
+            <motion.h1 variants={FADE_UP_ANIMATION_VARIANTS} className="font-serif text-6xl md:text-8xl lg:text-9xl font-light italic tracking-tight text-brand-dark mb-6">
+              Mayah Mughal
             </motion.h1>
             <motion.div variants={FADE_UP_ANIMATION_VARIANTS}>
               <a
@@ -279,9 +275,9 @@ export default function App() {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2 w-full">
               {[
-                "https://images.unsplash.com/photo-1582215286576-a4f669cd65bc?auto=format&fit=crop&w=800&q=80",
-                "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=800&q=80",
-                "https://images.unsplash.com/photo-1559599238-308793637427?auto=format&fit=crop&w=800&q=80",
+                "https://images.pexels.com/photos/32010608/pexels-photo-32010608.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=800&q=80",
+                "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=800&q=80",
                 "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80"
               ].map((img, idx) => (
                 <div key={idx} className="aspect-square bg-gray-100 overflow-hidden relative group">
